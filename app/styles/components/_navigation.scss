@@ -1,8 +1,10 @@
-.top-bar, .top-bar ul {
-  background-color: $nav-background;
-}
-
 .top-bar {
+  background-color: $nav-background;
+
+  .menu {
+    background-color: $nav-background;
+  }
+
   .menu-text {
     color: $nav-text-color;
   }
